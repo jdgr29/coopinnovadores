@@ -6,7 +6,7 @@ import AboutUsInfromation from "../aboutUs/information/information";
 import heroConfig from "./hero/heroConfig/heroConfig";
 import { Link } from "react-router-dom";
 import coopInnovadoresLogo from "../../assets/coop-innovadores-logo-colored.png";
-import coopInnovadoresLogoWhite from "../../assets/coop-innovadores-logo-colored.png";
+import coopInnovadoresLogoWhite from "../../assets/coopinnovadores-white-logo.png";
 function Header({
   WhoWeAre,
   Formulario,
@@ -58,22 +58,6 @@ function Header({
             <div>
               <Link to={"/"} style={{ textDecoration: "none" }}>
                 <div className="d-flex  justify-content-center">
-                  {/* <div
-                    className={`d-flex align-items-center text-white fs-3`}
-                    style={{
-                      padding: "5px 10px",
-                    }}
-                  >
-                    <div
-                      style={{
-                        color: "white",
-                        height: "100%",
-                        justifyContent: "flex-start",
-                      }}
-                    >
-                      COOPINNOVADORES
-                    </div>
-                  </div> */}
                   <div style={{ width: "auto", height: "120px" }}>
                     <img
                       src={

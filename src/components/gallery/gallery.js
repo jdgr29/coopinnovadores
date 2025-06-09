@@ -2,7 +2,6 @@ import React from "react";
 import Styles from "./gallery.module.css";
 import cardsInfo from "./cards/cardsInfo";
 import Cards from "./cards/cards";
-import { BsArrowRight } from "react-icons/bs";
 
 function Gallery() {
   return (
