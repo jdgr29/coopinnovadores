@@ -1,0 +1,30 @@
+.programaContainer {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.programaTitle {
+  font-size: 1.8em;
+  color: var(--primaryColor, #0056b3); /* Use CSS variable or fallback */
+  margin-bottom: 15px;
+  border-bottom: 2px solid var(--secondaryColor, #007bff); /* Use CSS variable or fallback */
+  padding-bottom: 10px;
+}
+
+.programaSubtitle {
+  font-size: 1.3em;
+  color: var(--primaryColorDark, #333333); /* Use CSS variable or fallback */
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.programaText {
+  font-size: 1em;
+  line-height: 1.7;
+  color: #555555;
+  text-align: justify;
+}

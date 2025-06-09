@@ -9,7 +9,6 @@ import MisionVision from "./aboutUsComponents/misionVision";
 function AboutUs() {
   return (
     <>
-      <MisionVision />
       <WhoWeAreWhy
         title={AboutUsInformation.whoWeAre.title}
         textInfo={AboutUsInformation.whoWeAre.textInfo}
@@ -31,6 +30,7 @@ function AboutUs() {
         textInfo={AboutUsInformation.whyUs.textInfo}
         sectionImg={AboutUsInformation.whyUs.sectionImg}
       />
+      <MisionVision />
       <MapSection />
     </>
   );

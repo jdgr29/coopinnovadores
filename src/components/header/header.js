@@ -97,6 +97,9 @@ function Header({
                 <Link to={"/aboutUs"} style={{ textDecoration: "none" }}>
                   <h2 className="nav-link text-white fs-5">Sobre Nosotros</h2>
                 </Link>
+                <Link to={"/programas"} style={{ textDecoration: "none" }}>
+                  <h2 className="nav-link text-white fs-5">Programas</h2>
+                </Link>
                 <Link to={"/register"} style={{ textDecoration: "none" }}>
                   <h2 className="nav-link text-white fs-5">Únete</h2>
                 </Link>
