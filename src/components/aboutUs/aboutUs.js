@@ -4,6 +4,7 @@ import Styles from "./about.module.css";
 import AboutUsInformation from "./information/information";
 import WhatWeDo from "./aboutUsComponents/whatWeDo";
 import MapSection from "./aboutUsComponents/map";
+import MisionVision from "./aboutUsComponents/misionVision";
 
 function AboutUs() {
   return (
@@ -29,6 +30,7 @@ function AboutUs() {
         textInfo={AboutUsInformation.whyUs.textInfo}
         sectionImg={AboutUsInformation.whyUs.sectionImg}
       />
+      <MisionVision />
       <MapSection />
     </>
   );

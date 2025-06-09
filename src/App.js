@@ -5,6 +5,8 @@ import Home from "./views/homeView";
 import Footer from "./components/footer/footer";
 import Register from "./views/registerView";
 import AboutUsView from "./views/aboutusView";
+import NotFound from "./components/notFound/NotFound";
+import ProgramasView from "./views/programasView";
 
 export default function App() {
   return (
@@ -13,7 +15,8 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/register" element={<Register />} />
         <Route path="/aboutUs" element={<AboutUsView />} />
-        {/* <Route path="*" element={<NotFound/>}/> */}
+        <Route path="/programas" element={<ProgramasView />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </div>

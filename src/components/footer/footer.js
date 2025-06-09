@@ -1,10 +1,5 @@
 import React from "react";
 import Styles from "./footer.module.css";
-import { BiRightArrowAlt } from "react-icons/bi";
-import { MdTouchApp } from "react-icons/md";
-import { BsFacebook, BsInstagram, BsYoutube } from "react-icons/bs";
-import { FaLinkedinIn } from "react-icons/fa";
-import infoConfig from "./info/info";
 import coopinnovadoresLogo from "../../assets/smallcooplogocolored.png";
 
 function Footer() {
